@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+    <Preference android:title="@string/setting_dummy" />
+
+    <PreferenceScreen android:title="@string/setting_other_settings_title"
+                      android:key="@string/setting_other_settings_key">
+        <Preference android:title="@string/setting_hidamari_title"
+                    android:key="@string/setting_hidamari_key">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://vividcode.hatenablog.com/" />
+        </Preference>
+    </PreferenceScreen>
+
+</PreferenceScreen>

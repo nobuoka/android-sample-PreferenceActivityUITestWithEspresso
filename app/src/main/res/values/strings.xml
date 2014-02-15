@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PreferencesActivityTest</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="setting_dummy">Dummy</string>
+
+    <string name="setting_other_settings_key">setting_other_settings</string>
+    <string name="setting_other_settings_title">その他</string>
+
+    <string name="setting_hidamari_key">setting_hidamari</string>
+    <string name="setting_hidamari_title">ひだまりソケットは壊れない</string>
+</resources>
