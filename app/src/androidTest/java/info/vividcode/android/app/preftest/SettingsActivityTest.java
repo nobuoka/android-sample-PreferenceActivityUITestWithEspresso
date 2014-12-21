@@ -7,12 +7,12 @@ import android.test.ActivityInstrumentationTestCase2;
 import android.test.TouchUtils;
 import android.widget.ListView;
 
-import com.google.android.apps.common.testing.ui.espresso.matcher.PreferenceMatchers;
+import android.support.test.espresso.matcher.PreferenceMatchers;
 
 import org.hamcrest.Matchers;
 
-import static com.google.android.apps.common.testing.ui.espresso.Espresso.onData;
-import static com.google.android.apps.common.testing.ui.espresso.action.ViewActions.click;
+import static android.support.test.espresso.Espresso.onData;
+import static android.support.test.espresso.action.ViewActions.click;
 
 public class SettingsActivityTest extends ActivityInstrumentationTestCase2<SettingsActivity> {
 

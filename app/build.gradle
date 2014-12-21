@@ -19,12 +19,16 @@ android {
 
         /* Espresso が必要とする instrumentation test runner
          * See: http://code.google.com/p/android-test-kit/wiki/GoogleInstrumentationTestRunner */
-        testInstrumentationRunner "com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    packagingOptions {
+        exclude 'LICENSE.txt'
     }
 }
 
 dependencies {
     /* Android UI テスティングフレームワーク Espresso
      * See: http://code.google.com/p/android-test-kit/wiki/Espresso */
-    androidTestCompile files('libs/espresso-1.1-bundled.jar')
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.0'
 }
