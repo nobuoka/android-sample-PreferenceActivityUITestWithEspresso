@@ -1,4 +1,4 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -6,7 +6,7 @@ tasks.withType(JavaCompile) {
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.1"
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         minSdkVersion 8
@@ -26,5 +26,5 @@ android {
 dependencies {
     /* Android UI テスティングフレームワーク Espresso
      * See: http://code.google.com/p/android-test-kit/wiki/Espresso */
-    instrumentTestCompile files('libs/espresso-1.1-bundled.jar')
+    androidTestCompile files('libs/espresso-1.1-bundled.jar')
 }
