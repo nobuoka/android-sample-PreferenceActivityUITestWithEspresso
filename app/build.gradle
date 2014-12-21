@@ -31,4 +31,5 @@ dependencies {
     /* Android UI テスティングフレームワーク Espresso
      * See: http://code.google.com/p/android-test-kit/wiki/Espresso */
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.0'
+    androidTestCompile 'com.android.support.test:testing-support-lib:0.1'
 }
