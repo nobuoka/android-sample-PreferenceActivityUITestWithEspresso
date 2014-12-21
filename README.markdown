@@ -15,8 +15,8 @@ android-sample-PreferenceActivityUITestWithEspresso
 
 ### 準備するもの
 
-* [Java SE Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 6 または 7
-* [Android SDK](http://developer.android.com/sdk/index.html) with Build Tools 19.0.1
+* [Java SE Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 7
+* [Android SDK](http://developer.android.com/sdk/index.html) with Build Tools 21.1.2
 
 Gradle ラッパーが本プロジェクトに含まれていますので、Gradle を用意する必要はありません。
 
@@ -33,7 +33,7 @@ local.properties ファイルに `sdk.dir=/path/to/sdk` 形式で記述します
 次に、本プロジェクトのディレクトリで次のコマンドを実行します。
 
 ```
-./gradlew connectedInstrumentTest
+./gradlew connectedAndroidTest
 ```
 
 上記コマンドにより、アプリとテストのビルドが行われ、接続されている端末上でテストが実行されます。
